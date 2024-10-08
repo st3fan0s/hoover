@@ -26,9 +26,9 @@ public class CleaningResponseDTO {
 
     @Override
     public String toString() {
-        return "CleaningResponseDTO{" +
-                "coords=" + coords +
-                ", patches=" + patches +
-                '}';
+        return "\nCleaningResponseDTO {" +
+                "\ncoords=" + coords + "," +
+                "\npatches=" + patches + "," +
+                "\n}";
     }
 }
