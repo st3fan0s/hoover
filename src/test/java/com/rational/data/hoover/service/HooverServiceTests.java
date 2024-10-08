@@ -2,7 +2,6 @@ package com.rational.data.hoover.service;
 
 import com.rational.data.hoover.dto.CleaningRequestDTO;
 import com.rational.data.hoover.dto.CleaningResponseDTO;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import javax.validation.ValidationException;
@@ -13,12 +12,7 @@ import java.util.Arrays;
 
 public class HooverServiceTests {
 
-    private HooverService hooverService;
-
-    @BeforeEach
-    public void setUp() {
-        hooverService = new HooverService();
-    }
+    private final HooverService hooverService = new HooverService();
 
     @Test
     public void testCleanRoomValidInput() {

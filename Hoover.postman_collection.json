@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "916149d6-276d-4944-9020-d01470e94e01",
+		"name": "Hoover",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8024325"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"roomSize\" : [15, 15],\r\n \"coords\" : [1, 2],\r\n \"patches\" : [\r\n [1, 2],\r\n [2, 3],\r\n [3, 4],\r\n [4, 5],\r\n [5, 6],\r\n [6, 7],\r\n [7, 8],\r\n [8, 9],\r\n [9, 10],\r\n [2, 2]\r\n ],\r\n \"instructions\" : \"NNESSEWSWESWWESSEESWNWW\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9876/hoover/execute",
+					"host": [
+						"localhost"
+					],
+					"port": "9876",
+					"path": [
+						"hoover",
+						"execute"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
